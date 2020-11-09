@@ -2,7 +2,6 @@ html {
  background-color: #fff;
 }
 ul  {
-  list-style-type: none;
   margin: 0;
   text-align: center;
 }
@@ -53,11 +52,11 @@ a:hover {
 }
 #sidebar-container {
   color: #fff;
-  width: 20%;
   padding: 15px 0;
 }
-#sidebar-container ul {
+#sidebar-container li {
   text-align: center;
+  list-style-type: none;
 }
 #onpage {
   text-decoration: underline overline
