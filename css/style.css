@@ -1,50 +1,64 @@
 html { 
- background-color: blue;
+ background-color: #fff;
 }
-ul, li {
+ul  {
   list-style-type: none;
+  margin: 0;
+  text-align: center;
 }
-a {
+ul li a {
   text-decoration: none;
+  color: #fff;
+  
+}
+li  {
+  padding: 10px 20px; 
+  display: block;
+}
+a:hover {
+ background-color: #000;
 }
 #main-navbar {
-  position: relative;
-  color: #fff;
-  float: left;
-  left: 50%; 
-  right: 50%;
-  margin: 0; 
-  padding: 0;  
-}  
-#navbar-container {
-  overflow: hidden;
-  text-decoration: none;
-  background-color: #000;
-  position: relative; 
-  list-style-type: none; 
   display: block;
+  background-color: blue;
   color: #fff;
-  text-decoration: none;
-  padding: 10px 20px;
   width: 100%;
+  overflow: hidden;
+} 
+#main-navbar ul li {
+  float: left;  
+   
+}
+#main-navbar ul {
+  float: left;  
+   padding: 0;
+}
+#navbar-container {
+  display: block;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  float: left;
+  
 }
 #sidebar{  
-  display: block;
-  color: #fff;
-  background-color: red;
-  height: 100%;
+  padding: 0; 
+  width: 20%;
   position: fixed;
   right:0%;
-  padding: 15px 0;
-  width: 20%;
+  display: block; 
+  height: 100%;
+  background-color: red;
+  
 }
 #sidebar-container {
-  
-  text-decoration: none;
-  list-style-type: none;
-  text-align: center;
-  padding: 0;
-  
-  background-color: #000;
-  
+  color: #fff;
+  width: 20%;
+  padding: 15px 0;
 }
+#sidebar-container ul {
+  text-align: center;
+}
+#onpage {
+  text-decoration: underline overline
+}  
